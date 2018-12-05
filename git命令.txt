@@ -1,0 +1,17 @@
+新建代码仓库:git init
+
+配置用户名: git config --global user.name "triplerzero"
+
+配置邮箱信息: git config --global user.email "1339350185@qq.con"
+
+把文件推到仓库门口：git add .
+
+创建版本命令：git commit -m “版本号或注释信息”
+
+查看版本号：git reflog
+
+把文件推到网络仓库：git push -u "https://github.com/triplerzero/triplerzero.github.io.git" master
+
+克隆仓库：git clone https://github.com/triplerzero/triplerzero.github.io.git
+
+记住密码：ssh-key -t rsa -C "1339350185@qq.com"
